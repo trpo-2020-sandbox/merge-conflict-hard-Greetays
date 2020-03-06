@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define N_ELEMENTS(arr) (sizeof(arr) / sizeof(*(arr)))
+#define N_ELEMENTS(arr) (sizeof(arr) / sizeof(int))
 
 int max_element(int* arr, int size)
 {
